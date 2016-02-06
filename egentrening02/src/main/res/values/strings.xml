@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Egentrening02</string>
+    <string name="title_activity_oppgave3_vis">oppgave3_vis</string>
 </resources>

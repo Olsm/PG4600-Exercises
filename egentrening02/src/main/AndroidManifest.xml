@@ -1,22 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.immortaltools.pg4600.egentrening02">
+    package="com.immortaltools.pg4600.egentrening02" >
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name="no.woact.stud.smaola14.egentrening02.Oppgave1"></activity>
-        <activity android:name="no.woact.stud.smaola14.egentrening02.Oppgave2">
+        android:theme="@style/AppTheme" >
+        <activity android:name="no.woact.stud.smaola14.egentrening02.Oppgave1"
+            android:label="E02.1 Hello Android">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="no.woact.stud.smaola14.egentrening02.Oppgave3"></activity>
+        <activity android:name="no.woact.stud.smaola14.egentrening02.Oppgave2"
+            android:label="E02.2 BildeTest">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="no.woact.stud.smaola14.egentrening02.Oppgave3"
+            android:label="E02.3 Telefon">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="no.woact.stud.smaola14.egentrening02.oppgave3_vis"
+            android:label="@string/title_activity_oppgave3_vis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="no.woact.stud.smaola14.egentrening02.Oppgave4_Kalkulator"
+            android:label="E02.4 Kalkulator" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
